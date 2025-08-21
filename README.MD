@@ -4,6 +4,10 @@ A web application to allow users to submit ratings for stores registered on the 
 
 ---
 
+# Live Link :
+
+[Live Link](https://assignment-eight-mu-43.vercel.app)
+
 ## Features
 
 - User authentication with role-based access.
@@ -79,6 +83,11 @@ A web application to allow users to submit ratings for stores registered on the 
 - **Authentication:** JWT
 
 ---
+
+## Deploy
+
+- **Frontend** Vercel
+- **Backend** Render
 
 ## How to Run
 
