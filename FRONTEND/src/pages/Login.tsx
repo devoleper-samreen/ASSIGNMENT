@@ -40,7 +40,7 @@ const Login = () => {
         // Role-based navigation
         if (role === "admin") navigate("/admin-dashboard");
         else if (role === "owner") navigate("/store-owner-dashboard");
-        else navigate("/user-dashboard");
+        else navigate("/dashboard");
       } else {
         toast({
           title: "Login Failed",
