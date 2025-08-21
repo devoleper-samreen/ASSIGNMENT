@@ -4,8 +4,6 @@ A web application to allow users to submit ratings for stores registered on the 
 
 ---
 
-# Live Link :
-
 [Live Link](https://assignment-eight-mu-43.vercel.app)
 
 ## Features
