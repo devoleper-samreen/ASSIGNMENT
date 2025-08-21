@@ -28,6 +28,10 @@ A web application to allow users to submit ratings for stores registered on the 
 - Can see store owner ratings.
 - Can log out securely.
 
+![](/FRONTEND/public/ad1.PNG)
+
+![](/FRONTEND/public/ad2.PNG)
+
 ### 2. Normal User
 
 - Can sign up and login.
@@ -41,6 +45,10 @@ A web application to allow users to submit ratings for stores registered on the 
   - Option to submit or modify rating
 - Logout functionality.
 
+![](/FRONTEND/public/user1.PNG)
+
+![](/FRONTEND/public/user2.PNG)
+
 ### 3. Store Owner
 
 - Can log in and update password.
@@ -48,6 +56,9 @@ A web application to allow users to submit ratings for stores registered on the 
   - Users who submitted ratings for their store
   - Average rating of their store
 - Logout functionality.
+  ![](/FRONTEND/public/own1.PNG)
+
+![](/FRONTEND/public/own2.PNG)
 
 ---
 
