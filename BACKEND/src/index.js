@@ -11,7 +11,25 @@ import ownerRoutes from "./routes/ownerRoutes.js";
 dotenv.config();
 const app = express();
 app.use(express.json());
-app.use(cors());
+
+// Allow both localhost and deployed frontend
+const allowedOrigins = [
+  "http://localhost:8080",
+  "https://assignment-eight-mu-43.vercel.app",
+];
+
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      // allow requests with no origin (like Postman) or from allowedOrigins
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
+  })
+);
 
 connectDB();
 
